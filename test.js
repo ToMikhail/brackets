@@ -55,7 +55,7 @@ it('should check if brackets sequence is correct 11', () => {
 });
 
 it('should check if brackets sequence is correct 12', () => {
-  assert.equal(check('111115611111111222288888822225577877778775555666677777777776622222', config6), true);
+  assert.equal(check('111115611111111222288888822225577877778775555666677777777776622222', config6), false);
 });
 
 it('should check if brackets sequence is correct 13', () => {
